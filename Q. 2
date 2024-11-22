@@ -1,4 +1,4 @@
-valor = float(input(":DIGA O VALOR DO SAQUE: R$ "))
+valor = float(input(" DIGA O VALOR DO SAQUE: R$ "))
 
 nota_100 = valor // 100
 valor %= 100
@@ -42,7 +42,6 @@ valor %= 0.05
 
 moeda_de_um_centavo = valor // 0.01
 valor %= 0.01
-
 
 print(f'MOEDAS DE R$ 1,00: {moeda_de_1_real}')
 print(f'MOEDAS DE R$ 0,50: {moeda_de_cinquenta_centavos}')
