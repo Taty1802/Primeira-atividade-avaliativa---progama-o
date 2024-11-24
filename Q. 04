@@ -14,7 +14,5 @@ data_final   = datetime(ano,mes_final, dia_final)
 if data_inicial > data_final:
     print("ERRO DIGITE PRIMEIRO A DATA INICIAL :")
 else:
-    diferenca = data_final - data_inicial
+    diferenca = (data_final - data_inicial).day
     print(f'FORAM {diferenca} DIAS DE DIFERENÇA')
-
-    # QUANDO COLOQUEI O 'DATETIME' PARECEU AS HORAS TENTEI RESOLVER NÃO CONSEGUIR.
